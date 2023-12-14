@@ -18,9 +18,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-family: 'Kalnia', serif;
+}
+
 /* Header */
 header {
-    background-color: blue;
+    background-color: white;
 }
 
 /* Main */
