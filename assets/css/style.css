@@ -7,6 +7,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* HTMl reset */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, em, img,
+small, strike, strong, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+table, caption, tbody, tfoot,
+thead, tr, th, td,
+article, details,
+figure,  footer, header,
+menu, nav, output, section, summary,
+time, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+}
+
+body {
+    line-height: 1;
+}
 
 /* General style */
 body {
@@ -20,11 +46,16 @@ body {
 
 h1 {
     font-family: 'Kalnia', serif;
+    color: deeppink;
 }
 
 /* Header */
 header {
-    background-color: white;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    position:fixed;
+    z-index: 99;
 }
 
 /* Main */
