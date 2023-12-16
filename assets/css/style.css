@@ -67,3 +67,7 @@ main {
 footer {
     background-color: deeppink;
 }
+
+#div-container{
+    display:flex;
+}
