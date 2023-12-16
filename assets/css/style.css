@@ -36,13 +36,29 @@ header {
     background-color: #ffffff;
     width: 100%;
     padding: 0 1rem;
-    position:fixed;
     z-index: 99;
+    box-shadow: 0 2px 4px #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 /* Main */
 main {
-    background-color: orange;
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    border: 15px;
+    padding: 20px;
+    margin: 0px;
     /* allow main element to take up surplus to push footer down */
     flex: 1 0 auto;
 }
