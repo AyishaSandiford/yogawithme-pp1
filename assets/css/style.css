@@ -35,6 +35,7 @@ h1 {
 header {
     background-color: #ffffff;
     width: 100%;
+    position:fixed;
     padding: 0 1rem;
     z-index: 99;
     box-shadow: 0 2px 4px #3a3a3a;
@@ -58,7 +59,7 @@ main {
     width: 100%;
     border: 15px;
     padding: 20px;
-    margin: 0px;
+    margin: 40px;
     /* allow main element to take up surplus to push footer down */
     flex: 1 0 auto;
 }
