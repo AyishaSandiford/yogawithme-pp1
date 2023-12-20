@@ -50,8 +50,18 @@ main {
 }
 
 /* Footer */
-Footer {
-    background-color: beige;
+#social-network {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-network i {
+    font-size: 160%;
+    padding: 3%;
+    color: purple;
 }
 
 #menu {
@@ -121,7 +131,7 @@ nav {
     }
 
     /*Main*/
-    main{
+    main {
         /* Push main content page down inorder to see content of page*/
         margin-top: 62px;
     }
@@ -129,7 +139,7 @@ nav {
 
 /* Large devices (Laptops and desktop, 922px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid purple;
     }
 
