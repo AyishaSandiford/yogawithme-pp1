@@ -114,4 +114,15 @@ nav {
     .nav-toggle-label {
         display:none;
     }
+    #logo {
+        font-size:280%;
+        line-height:75%;
+        margin: 8px 0.5rem 0;
+    }
+
+    /*Main*/
+    main{
+        /* Push main content page down inorder to see content of page*/
+        margin-top: 62px;
+    }
 }
