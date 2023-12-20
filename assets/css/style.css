@@ -44,6 +44,7 @@ h1 {
 /* Main Content */
 main {
     background-color: aqua;
+    margin-top:42px;
 /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
 }
