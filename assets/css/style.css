@@ -43,10 +43,16 @@ h1 {
 
 /* Main Content */
 main {
-    background-color: aqua;
     margin-top:42px;
 /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+/* Front Page Yoga Img */
+#yoga-img-one {
+    height: 600px;
+    width: 100%;
+    background: url("../img/2150838405.webp") no-repeat center center/cover;
 }
 
 /* Footer */
