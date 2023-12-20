@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic Styles */
     color: #3a3a3a;
+    font-family:'Montserrat', sans-serif;;
 }
 
 /* Main Content */
