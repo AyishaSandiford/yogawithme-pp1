@@ -53,7 +53,30 @@ main {
     height: 600px;
     width: 100%;
     background: url("../img/2150838405.webp") no-repeat center center/cover;
+    position: relative;
 }
+
+p a {
+    text-decoration: none;
+}
+
+#quote {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 400%;
+    text-align: center;
+}
+#invite{
+    color: #ffffff;
+    padding: 10px;
+}
+
+#cover-text {
+    bottom: 10px;
+    position: absolute;
+}
+
 
 /* Footer */
 #social-network {
