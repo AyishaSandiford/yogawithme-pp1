@@ -115,9 +115,9 @@ nav {
         display:none;
     }
     #logo {
-        font-size:280%;
+        font-size:200%;
         line-height:75%;
-        margin: 8px 0.5rem 0;
+        margin: 15px 0.5rem 0;
     }
 
     /*Main*/
@@ -125,4 +125,12 @@ nav {
         /* Push main content page down inorder to see content of page*/
         margin-top: 62px;
     }
+}
+
+/* Large devices (Laptops and desktop, 922px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid purple;
+    }
+
 }
