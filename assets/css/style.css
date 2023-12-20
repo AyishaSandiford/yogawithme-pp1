@@ -63,3 +63,14 @@ Footer {
 .active {
     border-bottom: 1px solid purple;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: inherit ;
+    width:100%;
+    padding: 0 16px;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display:none;
+}
