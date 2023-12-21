@@ -36,9 +36,10 @@ header a {
     color: inherit;
 }
 
-h1 {
-    color: purple;
+h1, h2, h3, h4{
+    font-family: 'Oxygen', sans-serif;
     letter-spacing: 2px;
+    color: #957FEF;
 }
 
 /* Main Content */
@@ -62,7 +63,6 @@ p a {
 }
 
 #quote {
-    font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     color: #ffffff;
     font-size: 350%;
@@ -80,12 +80,19 @@ p a {
 }
 
 #welcome {
+    color: #E090DF;
     text-align: center;
     font-size: 200%;
     padding: 20px;
 }
 
+/* Container Styles */
+#container-one{
+    padding-top: 90px;
+}
+
 #container-two {
+    text-align: center ;
     padding: 0 50px 0 50px;
     border: 10px;
 }
@@ -98,6 +105,7 @@ p a {
 .layout {
     padding: 10px 50px 0 50px;
     border: 10px;
+    text-align: center;
 }
 
 .layout li {
@@ -113,13 +121,13 @@ p a {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: beige;
+    background-color: #957FEF;
 }
 
 #social-network i {
     font-size: 160%;
     padding: 3%;
-    color: purple;
+    color: #E090DF;
 }
 
 #menu {
@@ -183,6 +191,7 @@ nav {
         display:none;
     }
     #logo {
+        color: #E090DF;
         font-size:200%;
         line-height:75%;
         margin: 15px 0.5rem 0;
@@ -195,10 +204,40 @@ nav {
     }
 }
 
+/* Contact Us Style */
+.contact-container {
+    padding: 20px;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+}
+
+.contact-container h1, .contact-container p {
+    text-align: center;
+}
+
+form {
+    background: #E090DF;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+form input, textarea {
+    border:0;
+    margin:10px 0;
+    padding: 20px;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
 /* Large devices (Laptops and desktop, 922px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid purple;
+        border-bottom: 1px solid #E090DF;
+        color: aqua;
     }
-
 }
