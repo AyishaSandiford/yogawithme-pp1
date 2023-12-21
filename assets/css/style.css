@@ -46,6 +46,7 @@ main {
     margin-top:42px;
 /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+    padding-bottom: 30px;
 }
 
 /* Front Page Yoga Img */
@@ -64,10 +65,11 @@ p a {
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     color: #ffffff;
-    font-size: 400%;
+    font-size: 350%;
     text-align: center;
+    padding: 10px;
 }
-#invite{
+#invite {
     color: #ffffff;
     padding: 10px;
 }
@@ -88,6 +90,21 @@ p a {
     border: 10px;
 }
 
+#container-two h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.layout {
+    padding: 10px 50px 0 50px;
+    border: 10px;
+}
+
+.layout li {
+    list-style-image: url("../img/girl+4.png");
+    padding: 2px 0 2px 0;
+}
+
 
 /* Footer */
 #social-network {
@@ -96,6 +113,7 @@ p a {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: beige;
 }
 
 #social-network i {
