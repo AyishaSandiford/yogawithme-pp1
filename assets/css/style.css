@@ -49,6 +49,17 @@ h3 {
     padding-bottom: 10px;
 }
 
+.heading {
+    padding-top: 10px;
+}
+
+#logo {
+    color: #A4036B;
+    font-size:200%;
+    line-height:75%;
+    margin: 15px 0.5rem 0;
+}
+
 /* Main Content */
 main {
     margin-top: 42px;
@@ -75,9 +86,21 @@ main {
 
 .img-layout img {
     max-width: 100%;
-    max-height: 150px;
+}
+.yoga-list{
+    padding: 20px 0;
 }
 
+.yoga-bullet-point {
+    border-bottom: 1px solid #E090DF;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.yoga-icon {
+    list-style-image: url("../img/girl+4.png");
+}
 p a {
     text-decoration: none;
 }
@@ -123,7 +146,6 @@ p a {
 .layout {
     padding: 10px 50px 0 50px;
     border: 10px;
-    text-align: center;
 }
 
 .layout li {
@@ -134,7 +156,6 @@ li {
     padding-bottom: 20px;
 }
 
-
 /* Footer */
 #social-network {
     text-align: center;
@@ -142,13 +163,13 @@ li {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #957FEF;
+    background-color: #E1E1E1;
 }
 
 #social-network i {
     font-size: 160%;
     padding: 3%;
-    color: #E090DF;
+    color:  #A4036B;
 }
 
 #menu {
@@ -162,7 +183,7 @@ li {
 }
 
 .active {
-    border-bottom: 1px solid #957FEF;
+    border-bottom: 2px solid #E1E1E1;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -195,8 +216,35 @@ nav {
 
     .img-layout img {
         max-width: 100%;
-        max-height: 333px;
     }
+
+    .img-layout > div {
+        width: 33.33%
+    }
+
+    .heading-center {
+        text-align: center;
+    }
+
+    .yoga-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    .yoga-bullet-point {
+        margin-bottom: 15px;
+        border: 2px solid #E090DF;
+        border-radius: 7px;
+        padding: 15px;
+    }
+
+     #container-four {
+         display: flex;
+         width:100%;
+     }
 
     nav {
         display:block;
@@ -216,12 +264,6 @@ nav {
 
     .nav-toggle-label {
         display:none;
-    }
-    #logo {
-        color: #A4036B;
-        font-size:200%;
-        line-height:75%;
-        margin: 15px 0.5rem 0;
     }
 
     /*Main*/
@@ -265,13 +307,14 @@ form input, textarea {
 @media screen and (min-width: 992px) {
 
     #menu a:hover {
-        border-bottom: 1px solid #E090DF;
-        color: aqua;
+        border-bottom: 2px solid #E1E1E1;
+        color: #A4036B;
     }
 
     .img-layout {
         max-width: 1400px;
         justify-content: center;
+        align-items: start;
         margin: 40px auto;
         padding: 0 40px;
         flex-direction: row;
@@ -280,7 +323,7 @@ form input, textarea {
 
     .img-layout img {
         max-width: 100%;
-        max-height: 283px;
+        max-height: 350px;
     }
 
 }
