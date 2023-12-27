@@ -64,6 +64,19 @@ main {
     background: url("../img/2150838405.webp") no-repeat center center/cover;
     position: relative;
 }
+.img-layout {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-layout img {
+    max-width: 100%;
+    max-height: 150px;
+}
 
 p a {
     text-decoration: none;
@@ -179,6 +192,12 @@ nav {
 
 /* Media Query: Tables and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
+
+    .img-layout img {
+        max-width: 100%;
+        max-height: 333px;
+    }
+
     nav {
         display:block;
         position: relative;
@@ -244,8 +263,24 @@ form input, textarea {
 }
 /* Large devices (Laptops and desktop, 922px and up) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 1px solid #E090DF;
         color: aqua;
     }
+
+    .img-layout {
+        max-width: 1400px;
+        justify-content: center;
+        margin: 40px auto;
+        padding: 0 40px;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .img-layout img {
+        max-width: 100%;
+        max-height: 283px;
+    }
+
 }
