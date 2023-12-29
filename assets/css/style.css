@@ -25,7 +25,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display:flex;
     justify-content: space-between;
     align-items: baseline;
@@ -64,6 +63,16 @@ h4 {
     line-height:75%;
     margin: 15px 0.5rem 0;
 }
+
+/* Page Title Banner */
+.page-title {
+    padding: 40px 20px;
+    border-bottom: solid 1px #e4cfff;
+    border-top: solid 1px #e4cfff;
+    background-color: #f8f1ff;
+    text-align: center;
+}
+
 
 /* Main Content */
 main {
@@ -305,6 +314,7 @@ form {
     border-radius: 10px;
     margin: 20px auto;
 }
+
 form input, textarea {
     border:0;
     margin:10px 0;
@@ -313,6 +323,7 @@ form input, textarea {
     font-size: 16px;
 
 }
+
 /* Large devices (Laptops and desktop, 922px and up) */
 @media screen and (min-width: 992px) {
 
