@@ -283,6 +283,16 @@ input[type="submit"] {
     height: 90%;
 }
 
+/* Feedback Page Styles */
+.feedback-thank-you {
+    padding: 80px 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border: solid 1px #EEE;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
 /* Footer */
 #social-network {
     text-align: center;
