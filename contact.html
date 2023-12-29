@@ -39,24 +39,50 @@
 
 <!--Main-->
 <main>
-    <section class="contact-container">
-            <h1>Contact Us</h1>
-            <p>We want to hear from you</p>
-        <form id="contact-form" method="get">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+    <div class="page-title">
+        <h1>Contact Us</h1>
+    </div>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+    <section class="section-layout narrow contact-us">
+        <article class="form">
+            <h2>We want to hear from you</h2>
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <form id="contact-form" method="get">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Enter message" required></textarea>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
 
-            <button type="submit" formaction="feedback_form.html">Submit</button>
-        </form>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter message" required></textarea>
+
+                <input type="submit" value="Submit" formaction="feedback_form.html">
+            </form>
+        </article>
+        <article>
+            <h2>Reach Us</h2>
+            <section class="grey-background background-style">
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>contactus@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td> 1246-267-4430</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td> #123 Land Cove New Jersey USA</td>
+                    </tr>
+                </table>
+            </section>
+
+        </article>
     </section>
 </main>
 
