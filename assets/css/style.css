@@ -155,11 +155,9 @@ p a {
 }
 
 /* Container Styles */
-
 #container-two {
     text-align: center ;
     padding: 0 50px 0 50px;
-    border: 10px;
 }
 
 #container-two h2 {
@@ -180,50 +178,8 @@ li {
 }
 .yoga-getting-started {
     display: flex;
+    flex-direction: column;
     gap: 20px;
-}
-
-/* Video Styles For Yoga page */
-
-.beginner-video .header {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.beginner-video iframe {
-    width: 100%;
-    height: 500px;
-}
-
-.grey-background {
-    background-color: #F5F5F5;
-    border-bottom: solid 1px #EEE;
-    border-top: solid 1px #EEE;
-}
-
-.section-layout {
-    padding: 80px 30px;
-}
-
-.section-layout.narrow {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1400px;
-}
-
-.instructors {
-    display: flex;
-    gap: 20px;
-}
-
-.instructors iframe {
-    width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
-}
-
-.instructors > article {
-    width: 33.33%;
 }
 
 /* About Us Page Styles */
@@ -231,30 +187,19 @@ li {
 .who-we-are, .our-goal, .contact-us {
     display: flex;
     gap: 40px;
-}
-
-.who-we-are > article, .our-goal > article, .contact-us > article.form {
-    width: 66.6%;
-}
-
-.our-goal {
-    flex-direction: row-reverse;
-}
-
-.our-goal > aside {
-    text-align: left;
-}
-
-.who-we-are > article {
-    width: 66.6%;
+    flex-direction: column;
 }
 
 /* Contact Us Style */
+.contact-us {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
 
 form {
     background: #E090DF;
     display: flex;
-    flex-direction: column;
     padding: 2vw 4vw;
     width:100%;
     max-width: 800px;
@@ -348,6 +293,90 @@ nav {
     display: block;
 }
 
+/* Contact Us Style */
+.contact-container {
+    padding: 20px;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+}
+
+.contact-container h1, .contact-container p {
+    text-align: center;
+}
+
+form {
+    background: #E090DF;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+form input, textarea {
+    border:0;
+    margin:10px 0;
+    padding: 20px;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
+
+.contact-us.form {
+    max-width: 100%;
+}
+
+/* Video Styles For Yoga page */
+.beginner-video .header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.beginner-video iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.grey-background {
+    background-color: #F5F5F5;
+    border-bottom: solid 1px #EEE;
+    border-top: solid 1px #EEE;
+}
+
+.section-layout {
+    padding: 80px 30px;
+}
+
+.section-layout.narrow {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.instructors {
+   flex-direction: column;
+    gap: 20px;
+}
+
+.instructors iframe {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.instructors > article {
+    width: 100%;
+}
+
+/* About Us Image Styles */
+aside img {
+    width:100%
+}
+
+
 /* Media Query: Tables and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -395,6 +424,10 @@ nav {
         display:flex;
     }
 
+    #menu a {
+        white-space: nowrap;
+    }
+
     #menu > li {
         padding-left: 1rem;
     }
@@ -403,48 +436,54 @@ nav {
         display:none;
     }
 
-    /*Main*/
+    /* Main */
     main {
         /* Push main content page down inorder to see content of page*/
         margin-top: 82px;
     }
-}
 
-/* Contact Us Style */
-.contact-container {
-    padding: 20px;
-    width: 100%;
-    height:100vh;
-    align-items: center;
-}
+    .yoga-getting-started {
+        flex-direction: row;
+    }
 
-.contact-container h1, .contact-container p {
-    text-align: center;
-}
+    /* Form Styles */
+    form {
+        background: #E090DF;
+        display: flex;
+        padding: 2vw 4vw;
+        width:100%;
+        max-width: 800px;
+        border-radius: 10px;
+    }
 
-form {
-    background: #E090DF;
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width:100%;
-    max-width: 800px;
-    border-radius: 10px;
-    margin: 20px auto;
-}
+    /* Video Styles For Large devices over 768 */
+    .beginner-video iframe {
+        width: 100%;
+        height: 500px;
+    }
 
-form input, textarea {
-    border:0;
-    margin:10px 0;
-    padding: 20px;
-    background: #f5f5f5;
-    font-size: 16px;
+    .instructors {
+        display: flex;
+        gap: 20px;
+    }
+
+    .instructors > article {
+        width: 33.33%;
+    }
+
+    /* About Us Image Styles for Devices 768 and Larger */
+    aside img {
+        max-width:50%;
+        max-height: 450px;
+
+    }
 
 }
 
 /* Large devices (Laptops and desktop, 922px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Header Menu Styles */
     #menu a:hover {
         border-bottom: 2px solid #E1E1E1;
         color: #A4036B;
@@ -465,19 +504,33 @@ form input, textarea {
         max-height: 350px;
     }
 
-    /* Style Yoga Page */
-    #yoga-img-4 {
-        float: right;
-        max-width: 50%;
-    }
+    /* About Us Page Styles for Large devices over 992 */
 
-    #yoga-section {
-        float: left;
-        max-width: 50%;
-    }
-
-    #wrapper {
+    .who-we-are, .our-goal, .contact-us {
         display: flex;
+        gap: 40px;
     }
+
+    .who-we-are > article, .our-goal > article, .contact-us > article.form {
+        width: 66.6%;
+    }
+
+    .who-we-are {
+        flex-direction: row;
+    }
+
+    .our-goal {
+        flex-direction: row-reverse;
+    }
+
+    .our-goal > aside {
+        text-align: left;
+    }
+
+    .who-we-are > article {
+        width: 66.6%;
+    }
+
+
 }
 
