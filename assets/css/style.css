@@ -82,7 +82,6 @@ p {
     text-align: center;
 }
 
-
 /* Main Content */
 main {
     margin-top: 42px;
@@ -98,6 +97,7 @@ main {
     background: url("../img/2150838405.webp") no-repeat center center/cover;
     position: relative;
 }
+
 .img-layout {
     display: flex;
     align-items: center;
@@ -132,8 +132,8 @@ p a {
 #quote {
     font-weight: bold;
     color: #ffffff;
-    font-size: 350%;
-    text-align: center;
+    font-size: 150%;
+    text-align: left;
     padding: 10px;
 }
 #invite {
@@ -142,9 +142,11 @@ p a {
 }
 
 #cover-text {
-    bottom: 10px;
+    bottom: 30px;
     position: absolute;
     background-color: rgb(255, 207, 239, .7);
+    width:80%;
+    min-height: 200px;
 }
 
 #welcome {
@@ -183,7 +185,6 @@ li {
 }
 
 /* About Us Page Styles */
-
 .who-we-are, .our-goal, .contact-us {
     display: flex;
     gap: 40px;
@@ -376,10 +377,10 @@ aside img {
     width:100%
 }
 
-
 /* Media Query: Tables and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Font Page Styles */
     .img-layout img {
         max-width: 100%;
     }
@@ -464,12 +465,12 @@ aside img {
 
     .instructors {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
     }
 
     .instructors > article {
-        width: 33.33%;
+        width: 100%;
     }
 
     /* About Us Image Styles for Devices 768 and Larger */
@@ -477,6 +478,18 @@ aside img {
         max-width:50%;
         max-height: 450px;
 
+    }
+
+    /* Font Page Cover Text Styles For 768 and Larger*/
+    #cover-text {
+        bottom: 10px;
+        width: 100%;
+        min-height: 80px;
+    }
+
+    #quote {
+        font-size: 250%;
+        text-align: center;
     }
 
 }
@@ -532,6 +545,22 @@ aside img {
         width: 66.6%;
     }
 
+    /* Increase Font Size for Font Page Quote for 992 and larger */
+
+    #quote {
+        font-size: 250%;
+        text-align: left;
+    }
+
+    /* Video Styles For Large devices over 992 */
+
+    .instructors {
+        flex-direction: row;
+    }
+
+    .instructors > article {
+        width: 33.33%;
+    }
 
 }
 
