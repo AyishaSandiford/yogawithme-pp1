@@ -259,7 +259,7 @@ footer {
     list-style-type: none;
 }
 
-#social-network-footer i {
+.social-network-footer i {
     font-size: 160%;
     padding: 3%;
     color:  #A4036B;
