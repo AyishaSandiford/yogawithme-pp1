@@ -232,8 +232,8 @@ input[type="submit"] {
 /* Feedback Page Styles */
 .feedback-thank-you {
     padding: 80px 30px;
-    margin: 40px auto;
-    max-width: 800px;
+    margin: 30px auto;
+    max-width: 80%;
     border: solid 1px #EEE;
     background-color: #F5F5F5;
     text-align: center;
@@ -565,6 +565,13 @@ aside img {
     .contact-us {
         flex-direction: row;
     }
+
+    /* Feedback Page Styles */
+    .feedback-thank-you {
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
 
 }
 
