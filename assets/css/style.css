@@ -251,7 +251,7 @@ input[type="submit"] {
 footer {
     background-color: #E1E1E1;
 }
-#social-network-footer {
+.social-network-footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
