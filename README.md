@@ -102,13 +102,58 @@ a image to the left.
  - The Studio page prepares you by listing what you will need displayed to the left of the page with an image to its right showing basic Yoga poses. It also offers an explanatory video going into detail on how to perform basic Yoga poses
 <!-- image will go here -->
 
- - It then introduces you to the three Yoga instructors. 
-   Here you start with a 10min yoga video. keeping it short and simple
+ - It introduces you to the three Yoga instructors. 
+ - The user starts with a 10min yoga video. Keeping it short and simple
    for your beginners
 - The user will move on to a 40min video for those who may be willing to try something a bit more challenging.
-- And lastly a stretch is provided as it is important after ever exercise 
+- And lastly a stretch is provided as it is important after ever exercising 
 - In these videos you are though how to breath and provided with expert tips and knowledge 
-- When view on mobile/small screens the images and videos become small and is displayed in columns 
-- However when viewed on lager screens the instructor videos are displayed as flex and position in a row 
+- When viewed on mobile/small screens the images and videos become smaller to fit the screen size and is displayed in columns, one after the other 
+- However, when viewed on lager screens the instructor videos are displayed as flex and position in a row 
 
 <!-- image will go here -->
+
+## The About Us page
+
+- This page layout shows the who-we-are text aligned to the left and an image to its immediate right. This layout is reversed when displaying the Our-Goal section below. A light grey background color of helps differentiates between the two summaries allowing a better reading experience.
+- Who-we-are summary gives the User an insight on the life of Emily Stuart the Founder of YogaWithMe and how she first fell in love with Yoga and started this company. (The name Emily Stuart was created only to add a name to this story)
+- Our-Goal summary is positioned directly below the Who-we-are summary. This informs the reader of the Founder's goal and what you can expect form the practice
+<!-- image will go here -->
+
+## Contact Us
+
+The contact form provides users with the ability to contact the YogaWithMe team directly with any queries or comments they may have. The user is asked to fill in their full name, email address, subject and the content of their message.
+<!-- image will go here -->
+
+ - Hidden Pages
+    - Once the contact form is correctly fill-out, the feedback-page will appear thanking the customer for their feedback/message.
+    - This page takes the same page structure as the contact us page, but with the feedback page content
+<!-- image will go here -->
+
+## Testing 
+
+
+## Validator Testing
+
+
+
+## Deployment 
+
+- The site was deployed to GitHub pages. the steps to deploy are as follows:
+   - In the GitHub repository, navigate to the settings tab
+   - Select the pages link from the setting menu on the left hand side
+   - Under the GitHub Pages from the source section drop-down menu, select the master branch
+   - One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+   - The live link can be found here - [YogaWithMe Live Site](https://ayishasandiford.github.io/yogawithme-pp1/)
+
+## Credits
+
+- Content
+   - Text was taken from ChatGPT
+
+
+
+- Media
+   - 
+
+
