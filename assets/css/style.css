@@ -110,6 +110,7 @@ main {
 .img-layout img {
     max-width: 100%;
 }
+
 .yoga-list{
     padding: 20px 0;
 }
@@ -158,7 +159,7 @@ p a {
 
 /* Container Styles */
 #container-two {
-    text-align: center ;
+    text-align: left ;
     padding: 0 50px 0 50px;
 }
 
@@ -193,7 +194,6 @@ li {
 
 /* Contact Us Style */
 .contact-us {
-    flex-direction: column;
     gap: 20px;
     justify-content: center;
 }
@@ -560,6 +560,10 @@ aside img {
 
     .instructors > article {
         width: 33.33%;
+    }
+
+    .contact-us {
+        flex-direction: row;
     }
 
 }
