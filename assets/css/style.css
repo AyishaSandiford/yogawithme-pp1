@@ -239,17 +239,27 @@ input[type="submit"] {
     text-align: center;
 }
 
+.social-network {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 /* Footer */
-#social-network {
+footer {
+    background-color: #E1E1E1;
+}
+#social-network-footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #E1E1E1;
 }
 
-#social-network i {
+#social-network-footer i {
     font-size: 160%;
     padding: 3%;
     color:  #A4036B;
