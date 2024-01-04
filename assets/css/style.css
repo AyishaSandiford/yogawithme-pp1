@@ -15,13 +15,19 @@ body {
     flex-direction: column;
     /* Generic Styles */
     color: #3a3a3a;
-    font-family:'Montserrat', sans-serif;;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.sr-only {
+    position: absolute;
+    visibility: hidden;
 }
 
 /* Header */
 .nav-header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 10px 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -41,18 +47,19 @@ h1, h2, h3, h4{
     font-family: 'Oxygen', sans-serif;
     letter-spacing: 2px;
     color: #957FEF;
+    margin-bottom: 1.25rem;
 }
 
 h2 {
-    margin-bottom: 1em;
+    font-size: 200%;
 }
 
 h3 {
-    padding-bottom: 10px;
+    font-size: 150%;
 }
 
 h4 {
-    padding-bottom: 15px;
+    font-size: 125%;
 }
 
 .heading {
@@ -71,8 +78,7 @@ p {
 #logo {
     color: #A4036B;
     font-size:200%;
-    line-height:75%;
-    margin: 15px 0.5rem 0;
+    margin: 0 0.5rem;
 }
 
 /* Page Title Banner */
@@ -86,7 +92,7 @@ p {
 
 /* Main Content */
 main {
-    margin-top: 42px;
+    margin-top: 57px;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     padding-bottom: 30px;
@@ -109,8 +115,18 @@ main {
     gap: 20px;
 }
 
-.img-layout img {
+.blurb-layout {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
     max-width: 100%;
+    height: 100%;
 }
 
 .yoga-list{
@@ -138,7 +154,9 @@ p a {
     font-size: 150%;
     text-align: left;
     padding: 10px;
+    margin-bottom: 0;
 }
+
 #invite {
     color: #ffffff;
     padding: 10px;
@@ -147,31 +165,19 @@ p a {
 #cover-text {
     bottom: 30px;
     position: absolute;
-    background-color: rgb(255, 207, 239, .7);
+    background-color: rgb(33,33,33, .7);
     width:80%;
-    min-height: 200px;
 }
 
 #welcome {
     color: #957FEF;
     text-align: center;
-    font-size: 200%;
-    padding: 60px;
+    margin: 20px 0;
 }
 
 /* Container Styles */
-#container-two {
-    text-align: left ;
-    padding: 0 50px 0 50px;
-}
-
-#container-two h2 {
-    padding-bottom: 10px;
-    font-weight: bold;
-}
-
-.layout {
-    padding: 10px 50px 0 50px;
+#yoga-benefit-blurbs article {
+    margin-bottom: 30px;
 }
 
 .layout li {
@@ -282,23 +288,23 @@ footer {
 }
 
 /* Navbar styles with dropdown toggle */
-nav {
+nav.main-nav {
     position: absolute;
-    background-color: inherit ;
-    width:100%;
-    padding: 0 16px;
-    box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
+    top: 100%;
+    width:100%;
+    padding: 20px 16px 0 16px;
+    background-color: inherit;
+    box-shadow: 0 2px 2px #3a3a3a;
     display:none;
-    top:100%;
 }
 
 #nav-toggle {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size:2rem;
+.nav-toggle-label i {
+    font-size: 200%;
 }
 
 /* Nav Toggle */
@@ -360,7 +366,7 @@ form input, textarea {
 }
 
 .section-layout {
-    padding: 80px 30px;
+    padding: 40px 15px;
 }
 
 .narrow {
@@ -386,13 +392,24 @@ form input, textarea {
 
 /* About Us Image Styles */
 aside img {
-    width:100%
+    width:100%;
 }
-
 
 
 /* Media Query: Tables and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
+
+    #container-four img {
+        max-width: 33.33%;
+    }
+
+    #container-four {
+        gap: 20px;
+    }
+
+    #yoga-benefit-blurbs {
+        flex-direction: row;
+    }
 
     /* Font Page Styles */
     .img-layout img {
@@ -401,10 +418,6 @@ aside img {
 
     .img-layout > div {
         width: 33.33%
-    }
-
-    .heading-center {
-        text-align: center;
     }
 
     .yoga-list{
@@ -449,12 +462,6 @@ aside img {
 
     .nav-toggle-label {
         display:none;
-    }
-
-    /* Main */
-    main {
-        /* Push main content page down inorder to see content of page*/
-        margin-top: 82px;
     }
 
     .yoga-getting-started {
