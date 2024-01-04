@@ -21,18 +21,21 @@
 </head>
 <body>
 <!--Header-->
-<header>
+<header class="narrow nav-header">
     <a href="index.html">
-        <h1 id="logo">YogaWithMe</h1>
+        <h1 id="logo"> YogaWithMe</h1>
     </a>
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    <nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span aria-hidden="false" class="sr-only">Click to toggle mobile menu</span>
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <nav class="main-nav">
         <ul id="menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="studio.html">Studio</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html" class="active">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
 </header>
@@ -69,19 +72,20 @@
         <article>
             <h2>Reach Us</h2>
             <section class="grey-background background-style">
+                <h1>You can Reach Us here</h1>
                 <table>
                     <tr>
                         <td>Email:</td>
-                        <td>contactus@example.com</td>
                     </tr>
+                    <tr><td>contactus@example.com</td></tr>
                     <tr>
                         <td>Phone:</td>
-                        <td> 1246-267-4430</td>
                     </tr>
+                    <tr><td> 1246-267-4430</td></tr>
                     <tr>
                         <td>Address:</td>
-                        <td> #123 Land Cove New Jersey USA</td>
                     </tr>
+                    <tr><td> #123 Land Cove New Jersey USA</td></tr>
                 </table>
             </section>
 
