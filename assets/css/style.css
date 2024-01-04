@@ -46,7 +46,7 @@ header a {
 h1, h2, h3, h4{
     font-family: 'Oxygen', sans-serif;
     letter-spacing: 2px;
-    color: #957FEF;
+    color: #212121;
     margin-bottom: 1.25rem;
 }
 
@@ -134,7 +134,7 @@ img {
 }
 
 .yoga-bullet-point {
-    border-bottom: 1px solid #E090DF;
+    border-bottom: 2px solid #A4036B;
     padding: 10px;
     text-align: center;
     display: block;
@@ -170,7 +170,7 @@ p a {
 }
 
 #welcome {
-    color: #957FEF;
+    color: #212121;
     text-align: center;
     margin: 20px 0;
 }
