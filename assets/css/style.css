@@ -231,7 +231,7 @@ form {
     border-radius: 10px;
 }
 
-form input, textarea {
+form input, form textarea, form button {
     border:0;
     margin:10px 0;
     padding: 20px;
@@ -239,15 +239,14 @@ form input, textarea {
     font-size: 16px;
 }
 
+form button {
+    color: #000000;
+    border-radius: 30px;
+}
+
 form > label {
     color: #ffffff;
     font-weight: bold;
-}
-
-input[type="submit"] {
-    background-color: #f5f5f5;
-    color: grey;
-    border-radius: 15px;
 }
 
 .contact-us h2 {
@@ -506,7 +505,7 @@ aside img {
     }
 
     .nav-toggle-label {
-        display:none;
+        visibility: hidden;
     }
 
     .yoga-getting-started {
