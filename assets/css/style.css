@@ -406,6 +406,10 @@ aside img {
 /* Media Query: Tables and larger devices (768px and up) */
 @media screen and (min-width: 768px) {
 
+    img {
+        height: inherit;
+    }
+
     nav.main-nav {
         display: flex;
         position: unset;
@@ -527,13 +531,6 @@ aside img {
 
     .instructors > article {
         width: 100%;
-    }
-
-    /* About Us Image Styles for Devices 768 and Larger */
-    aside img {
-        max-width:50%;
-        max-height: 450px;
-
     }
 
     /* Font Page Cover Text Styles For 768 and Larger*/
