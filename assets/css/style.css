@@ -24,6 +24,10 @@ body {
     visibility: hidden;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Header */
 .nav-header-wrapper {
     position: fixed;
