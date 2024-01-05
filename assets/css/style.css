@@ -567,12 +567,15 @@ aside img {
         width: 66.6%;
     }
 
-
     .who-we-are > article, .our-goal > article, .contact-us > article.form {
         width: 66.6%;
     }
 
-    .who-we-are {
+    .contact-us > article.reach-us {
+        width: 33.3%;
+    }
+
+    .who-we-are, .contact-us {
         flex-direction: row;
     }
 }
