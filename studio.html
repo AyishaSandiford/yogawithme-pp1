@@ -33,7 +33,7 @@
         <nav class="main-nav">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="studio.html" class="active">Studio</a></li>
+                <li class="active"><a href="studio.html">Studio</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -44,11 +44,11 @@
 <!--Main-->
 <main>
     <div class="page-title">
-        <h2 id="welcome-yoga-page">Yoga Studio</h2>
+        <h2>Yoga Studio</h2>
     </div>
 
     <div class="grey-background">
-        <div class="section-layout narrow yoga-getting-started">
+        <div id="yoga-getting-started" class="section-layout narrow">
             <article>
                 <h3>Let's Get You Started</h3>
                 <p>You will need the following equipment to following along with our online yoga classes:</p>
@@ -71,30 +71,35 @@
                     </li>
                 </ul>
             </article>
-            <div class="img-layout">
-                <img src="assets/img/yoga-poses.png" alt="Twenty Yoga poses">
-            </div>
+            <img src="assets/img/yoga-poses.png" alt="Twenty Yoga poses">
         </div>
     </div>
-    <div class="section-layout narrow beginner-video">
+    <div id="beginners-video" class="section-layout narrow yoga-video text-center">
         <article>
-            <h2>Watch Our Beginners Video</h2>
+            <h3>Watch Our Beginners Video</h3>
             <p>Our beginner video will introduce you to yoga techniques and practices</p>
         </article>
-        <iframe class="" src="https://www.youtube.com/embed/rt1bsoOukjI?si=i8471P_VvjKLoj8q"
-                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                     gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-wrapper">
+            <div class="youtube-video">
+                <iframe src="https://www.youtube.com/embed/rt1bsoOukjI?si=i8471P_VvjKLoj8q"
+                        title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                         gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
     </div>
     <div class="grey-background">
-        <section class="section-layout narrow beginner-video">
-            <h2>Meet Our Instructors</h2>
+        <section id="meet-our-instructors" class="section-layout narrow yoga-video">
+            <h3>Meet Our Instructors</h3>
             <div class="instructors">
                 <article>
-                    <iframe src="https://www.youtube.com/embed/j7rKKpwdXNE?si=VkhNr7Ag9R2aVIOn"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    <h3>Join Adriene</h3>
+                    <div class="youtube-video">
+                        <iframe src="https://www.youtube.com/embed/j7rKKpwdXNE?si=VkhNr7Ag9R2aVIOn"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                    </div>
+                    <h4>Join Adriene</h4>
                     <p>Join us on a transformative journey! Dive into yoga with Adriene, our passionate instructor, in a
                         dynamic 10-minute video tailored for beginners. Discover the joy of movement,
                         find inner balance, and embark on a path of wellness. Embrace this empowering experience and
@@ -116,11 +121,14 @@
                     </ul>
                 </article>
                 <article>
-                    <iframe src="https://www.youtube.com/embed/9fp9OQZvXRM?si=y4DpTegBFyxMf_5x"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    <h3>Join Charlie </h3>
+                    <div class="youtube-video">
+                        <iframe src="https://www.youtube.com/embed/9fp9OQZvXRM?si=y4DpTegBFyxMf_5x"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                    </div>
+
+                    <h4>Join Charlie </h4>
                     <p>Embark on a daily yoga journey with Charlie, our dedicated instructor! Immerse yourself in a
                         revitalizing
                         40-minute video designed for beginners. Cultivate strength, flexibility, and inner peace as you
@@ -145,10 +153,13 @@
                     </ul>
                 </article>
                 <article>
-                    <iframe src="https://www.youtube.com/embed/-ZPyCILWvT0?si=NX0lrCNYwRLtNNED"
-                            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write;
+                    <div class="youtube-video">
+                        <iframe src="https://www.youtube.com/embed/-ZPyCILWvT0?si=NX0lrCNYwRLtNNED"
+                                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write;
                      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <h3>Join Sarah</h3>
+                    </div>
+
+                    <h4>Join Sarah</h4>
                     <p>Join us, new yogi friends! Ready for a serene finish to your day? Try our 10-minute cool-down
                         video led by the wonderful
                         instructor Sarah. Embrace relaxation, stretch those muscles, and find your inner calm. Let's
