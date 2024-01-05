@@ -22,23 +22,25 @@
 </head>
 <body>
 <!--Header-->
-<header class="narrow nav-header">
-    <a href="index.html">
-        <h1 id="logo"> YogaWithMe</h1>
-    </a>
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">
-        <span aria-hidden="false" class="sr-only">Click to toggle mobile menu</span>
-        <i class="fa-solid fa-bars"></i>
-    </label>
-    <nav class="main-nav">
-        <ul id="menu">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="studio.html">Studio</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
+<header class="nav-header-wrapper">
+    <div class="nav-header narrow">
+        <a href="index.html">
+            <h1 id="logo"> YogaWithMe</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span aria-hidden="false" class="sr-only">Click to toggle mobile menu</span>
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="main-nav">
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="studio.html">Studio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <!--Main-->
@@ -112,17 +114,21 @@
 
 
     <section id="yoga-benefit-blurbs" class="blurb-layout section-layout narrow">
-        <article>
-            <img src="assets/img/img_3.webp"
-                 alt="Young woman meditating on yoga mat home holds hands sideways breathing relaxing mindful exercise">
+        <article class="blurb">
+            <picture>
+                <source srcset="assets/img/lady-yoga-mobile.webp" media="(min-width:1024px)">
+                <img src="assets/img/lady-yoga-mobile.webp"  alt="Young woman meditating on yoga mat home holds hands sideways breathing relaxing mindful exercise">
+            </picture>
             <h3 class="heading">Embrace Your Inner Self</h3>
             <p>Discover the beauty within. Embracing your inner self is the journey to authenticity, self-acceptance,
                 and boundless empowerment. Celebrate your uniqueness, honor your truths, and find serenity in being
                 authentically you.</p>
         </article>
-        <article>
-            <img src="assets/img/img_3.webp"
-                 alt="Kid meditating on yoga mat">
+        <article class="blurb">
+            <picture>
+                <source srcset="assets/img/kid-yoga-mobile.webp" media="(min-width=1024px)">
+                <img src="assets/img/kid-yoga-mobile.webp" alt="Kid meditating on yoga mat">
+            </picture>
             <h3 class="heading">Even Your Little One Can Do It </h3>
             <p> Even the Youngest Ones Adore It! Discover the joy that captivates all ages. Engage your little
                 ones in a world of wonder and delight with this enchanting experience that sparks their imagination and
@@ -130,9 +136,11 @@
                 with joy.
             </p>
         </article>
-        <article>
-            <img src="assets/img/img_3.webp"
-                 alt="Close up photo of Yogi students in yoga classroom setting">
+        <article class="blurb">
+            <picture>
+                <source srcset="assets/img/group-yoga-mobile.webp" media="(min-width=1024px)">
+                <img src="assets/img/group-yoga-mobile.webp" alt="Close up photo of Yogi students in yoga classroom setting">
+            </picture>
             <h3 class="heading">Get Encouraged By Your Peers</h3>
             <p> Peer Encouragement: Fuel for Your Journey. Surround yourself with support.
                 Drawing strength from like-minded individuals propels you forward.
@@ -145,7 +153,10 @@
 
     <div class="grey-background">
         <div id="container-four" class="section-layout narrow">
-            <img src="assets/img/img_3.webp" alt="Close up photo of Yogi students in yoga classroom setting">
+            <picture>
+                <source srcset="assets/img/class-yoga-mobile.webp" media="(min-width=1024px)">
+                <img src="assets/img/class-yoga-mobile.webp" alt="Yogi students sitting in yoga classroom setting">
+            </picture>
             <section>
                 <h3 class="heading heading-right">Benefits Of Yoga</h3>
                 <ul>
