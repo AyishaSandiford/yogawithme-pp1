@@ -552,7 +552,33 @@ aside img {
     #quote {
         font-size: 250%;
     }
+    /* About Us Page Styles for Large devices 768px and above */
 
+    .who-we-are, .our-goal, .contact-us {
+        display: flex;
+        gap: 40px;
+    }
+
+    .our-goal {
+        flex-direction: row-reverse;
+    }
+
+    .our-goal > aside {
+        text-align: left;
+    }
+
+    .who-we-are > article {
+        width: 66.6%;
+    }
+
+
+    .who-we-are > article, .our-goal > article, .contact-us > article.form {
+        width: 66.6%;
+    }
+
+    .who-we-are {
+        flex-direction: row;
+    }
 }
 
 /* Large devices (Laptops and desktop, 922px and up) */
@@ -577,33 +603,6 @@ aside img {
     .img-layout img {
         max-width: 100%;
         max-height: 350px;
-    }
-
-    /* About Us Page Styles for Large devices over 992 */
-
-    .who-we-are, .our-goal, .contact-us {
-        display: flex;
-        gap: 40px;
-    }
-
-    .who-we-are > article, .our-goal > article, .contact-us > article.form {
-        width: 66.6%;
-    }
-
-    .who-we-are {
-        flex-direction: row;
-    }
-
-    .our-goal {
-        flex-direction: row-reverse;
-    }
-
-    .our-goal > aside {
-        text-align: left;
-    }
-
-    .who-we-are > article {
-        width: 66.6%;
     }
 
     /* Increase Font Size for Font Page Quote for 992 and larger */
