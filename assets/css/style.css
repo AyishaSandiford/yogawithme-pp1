@@ -106,7 +106,15 @@ main {
     height: 600px;
     width: 100%;
     background: url("../img/2150838405.webp") no-repeat center center/cover;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#cover-text {
+    background-color: rgb(33,33,33, .7);
+    width:80%;
+    margin-bottom: 30px;
 }
 
 .img-layout {
@@ -163,13 +171,6 @@ p a {
 #invite {
     color: #ffffff;
     padding: 10px;
-}
-
-#cover-text {
-    bottom: 30px;
-    position: absolute;
-    background-color: rgb(33,33,33, .7);
-    width:80%;
 }
 
 #welcome {
@@ -542,7 +543,6 @@ aside img {
 
     #quote {
         font-size: 250%;
-        text-align: center;
     }
 
 }
