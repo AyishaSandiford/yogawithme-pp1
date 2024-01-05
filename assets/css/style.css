@@ -223,20 +223,19 @@ li {
 }
 
 form {
-    background: rgb(33, 33, 33, .7);
+    background: #F5F5F5;
     display: flex;
+    flex-direction: column;
     padding: 2vw 4vw;
     width:100%;
     max-width: 800px;
     border-radius: 10px;
+    margin: 20px auto;
 }
 
 form input, form textarea, form button {
-    border:0;
     margin:10px 0;
     padding: 20px;
-    background: #FFFFFF;
-    font-size: 16px;
 }
 
 form button {
@@ -245,7 +244,6 @@ form button {
 }
 
 form > label {
-    color: #ffffff;
     font-weight: bold;
 }
 
@@ -330,24 +328,6 @@ nav.main-nav {
 /* Nav Toggle */
 #nav-toggle:checked~nav {
     display: block;
-}
-
-/* Contact Us Style */
-.contact-us
-
-form {
-    background: rgb(33, 33, 33, .5);
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width:100%;
-    max-width: 800px;
-    border-radius: 10px;
-    margin: 20px auto;
-}
-
-.contact-us.form {
-    max-width: 100%;
 }
 
 /* Video Styles For Yoga page */
