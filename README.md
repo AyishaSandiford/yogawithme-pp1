@@ -136,7 +136,7 @@ an image to the left.
 - When viewed on mobile/small screens the images and videos become smaller to fit the screen size and is displayed in columns, one after the other 
 - And when viewed on lager screens the instructor videos are displayed as flex and position in a row as shown below:
 
-![Three image layout](docs/screenshots/Screenshot-three-image-layout.png)
+![Screenshot-instructors.png](docs/screenshots/Screenshot-instructors.png)
 
 ## The About Us page
 
@@ -161,6 +161,7 @@ The contact form provides users with the ability to contact the YogaWithMe team 
     - This page takes the same page structure as the contact us page, but with the feedback page content.
 
 ![Feedback Page](docs/screenshots/Screenshot-feedback.png)
+
 ## Testing 
 
 ---
