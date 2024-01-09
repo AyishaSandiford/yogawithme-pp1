@@ -534,7 +534,8 @@ aside img {
     }
 
     #yoga-getting-started img {
-        max-width: 33.33%
+        max-width: 33.33%;
+        height: 100%;
     }
 
     /* About us page */
