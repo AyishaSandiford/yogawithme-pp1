@@ -244,9 +244,10 @@ No videos were used on this page. This report was good.
 
 - Omar Fitzpatrick - My big brother and mentor who introduced me to HTML and CSS back in 2011 giving me my first project to replicate the CNN website. Big thanks for always being there to answer a quick question, help with planning and support!!!
 - David Bowers - My Mentor. I couldn't have been paired with a better Mentor! I am forever thankful and your guidance and support.
+- Kyle Skeete - Provided me with design tips to help improve the look of my contact us page. Big Thanks!!
 - Code Institute - For giving me this opportunity and providing me with unlimited resources, step by step videos and tons for support!
 - Ilyas Olgun - Has been very helpful providing me with tips and some bug fixes
-- The code institute Slack community where I was able to find answers to problems in Css and HTML
+- The Code Institute Slack community where I was able to find answers to problems in Css and HTML
 - And my amazing Fiancé Steven Rawlins who has been my rock and my biggest cheer leader from day one. Thank you for your continuous support every step of the way!
 
 ## General reference:
