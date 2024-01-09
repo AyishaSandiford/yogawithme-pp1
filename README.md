@@ -92,6 +92,8 @@ about this.
 
 ![Welcome](docs/screenshots/Screenshot-welcome.png)
 
+### This introductory video dives deeper into the meaning of yoga. Giving the user a better understanding on the true nature of yoga
+
 ![What is yoga video](docs/screenshots/Screenshot-what-is-yoga-video.png)
 
 ### With a border around each list. The site goes on to list just a few type of people that can get started with yoga.
@@ -111,6 +113,7 @@ about this.
 ## The Studio Page
 
  - This page has a banner with the tile of the page centered. This banner is consistent with all pages expect the Home Page
+
 ![Studio Banner](docs/screenshots/Screenshot-studio-banner.png)
 
  - The Studio page prepares you with a list of what you will need displayed to the left of the page with an image to its right showing basic Yoga poses.
