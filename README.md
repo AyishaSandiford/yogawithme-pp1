@@ -219,15 +219,16 @@ No errors were returned when passing through the official (Jigsaw) Validator [Re
 
 - Lighthouse
 
-I generated a lighthouse report on both desktop and mobile view. see below:
-  - One of my errors was "Does not use passive listeners to improve scrolling performance". I fixed this received a higher score.
-<-- image goes here -->
+I generated a lighthouse report on both desktop and mobile view. The Performance low score is due to the embedded youtube videos used on my site. 
+Solution - This can be resolved by adding a placeholder so that the page can load more quickly and then using javascript to dynamically add the embedded YouTube iframe to the page.
+
+![Screenshot-lighthouse-report-one.png](docs/screenshots/Screenshot-lighthouse-report-one.png)
 
 
-I generated a lighthouse report on both desktop and mobile view. see below:
-- One of my errors was "Does not use passive listeners to improve scrolling performance". I fixed this received a higher score.
-  <-- image goes here -->
-
+Below is the score of the lighthouse generated report of the About Us page
+No videos were used on this page. This report was good. 
+  
+![Screenshot-lighthouse-generated-report-two.png](docs/screenshots/Screenshot-lighthouse-generated-report-two.png)
 
 
 
