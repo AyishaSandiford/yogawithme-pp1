@@ -94,17 +94,15 @@ about this.
 
 ![What is yoga video](docs/screenshots/Screenshot-what-is-yoga-video.png)
 
-With a border around each list. The site goes on to list
-just a few type of people that can get started with yoga.
+### With a border around each list. The site goes on to list just a few type of people that can get started with yoga.
 
 ![All ages](docs/screenshots/Screenshot-all-ages.png)
 
-Three images are evenly stretched across the page with a brief encouraging note below
-to match each image.
+### Three images are evenly stretched across the page with a brief encouraging note below to match each image.
 
 ![Three image layout](docs/screenshots/Screenshot-three-image-layout.png)
-For further assurance, a list of Yoga benefits are listed to the right and
-an image to the left.
+
+### For further assurance, a list of Yoga benefits are listed to the right and an image to the left.
 
 
 ![Benefits image](docs/screenshots/Screenshot-benefit.png)
