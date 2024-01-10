@@ -1,14 +1,13 @@
 # YogaWithMe
 
 ## Introduction
-YogaWithMe is an introductory Site for Yoga beginners. Its
-design 
-for persons interested in learning about Yoga and want to 
+YogaWithMe is an introductory Site for Yoga beginners. It is
+designed for persons interested in learning about Yoga and who want to 
 start the practice while experiencing the endless benefits 
 of Yoga. The user is exposed to numerous materials to 
 help get them started on their journey. Practice sessions are all 
 conveniently one click away, with a team of instructors to
-help each step of the way.
+help along the way.
 
 ![Responsive image](docs/screenshots/Screenshot-responsive-image.png)
 
@@ -44,22 +43,22 @@ help each step of the way.
 
 ## How Will This Be Achieved 
 
-- The Front Page has a summary on Yoga and its origin, this is also accompanied by more detailed video. Images and a list of Yoga benefits are also available
-- The Yoga Studio provides interactive Yoga videos from an introductory video on yoga postures to our professional instructors providing a walkthrough on how to perform each exercise/technique
+- The Front Page has a summary on Yoga and its origin. This is also accompanied by a more detailed video. Images and a list of Yoga benefits are also available.
+- The Yoga Studio provides interactive Yoga videos from an introductory video on yoga postures to our professional instructors providing walkthroughes on how to perform each exercise/technique
 - The Site has a simple layout that won't overwhelm the user regardless of age
 - The site is user-friendly with conventional icons and a simple display allowing anyone to navigate easily throughout the pages
 - A form is provided for user interaction with the Yoga Team for more information
-- The user visit our About Us page to learn more about how YogaWithMe got started and information about the Founder
+- The user can visit our About Us page to learn more about how YogaWithMe got started and get information about the Founder
 
 # Common Features
 
 ---
 + The Navigation Bar 
   - The navigation bar takes a common design across all four pages in keeping with convention. The logo is placed on the upper left side of the page and the four pages (Home, studio ... etc.) are displayed to the immediate  right 
-  - The navigation bar consist of the Home, Studio, About Us and Contact Us pages. (There ia also a feedback form page, However which is only displayed after filling out the contact form and clicking on the submit button )
+  - The navigation bar consists of the Home, Studio, About Us and Contact Us pages. (There is also a feedback form page, However this is only displayed after filling out the contact form and clicking on the submit button )
   - Links are included on all four of the page tiles including the logo. These titles link to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users may be familiar with.
-  - The navigation bar is fully responsive, for smaller screens, the hamburger icon will appear and the logo centered on the page. Once the icon is clicked a dropdown menu of all four pages will be visible to the user. A horizontal line will appear under the users current page in this view
-  - For tablets, desktops and larger devices the navigation bar displays the title as stated in the second bullet above. (This was achieved using "white-space: nowrap" as a style to the media) horizontal lines appears under the current page as a visual indicator to the user indicating which page they are currently on. Titles have a change of colour and a line appearing underneath them once hovered to visually indicate to users that they are clickable.
+  - The navigation bar is fully responsive. For smaller screens, the hamburger icon will appear and the logo centered on the page. Once the icon is clicked a dropdown menu of all four pages will be visible to the user. A horizontal line will appear under the users current page in this view
+  - For tablets, desktops and larger devices the navigation bar displays the title as stated in the second bullet above. (This was achieved using "white-space: nowrap" as a style to the media). A horizontal line appears under the current page as a visual indicator to the user indicating which page they are currently on. Titles have a change of colour and a line appearing underneath them once hovered to visually indicate to users that they are clickable.
 
 ![Nav Bar](docs/screenshots/Screenshot-nav-bar.png)
 
@@ -67,7 +66,7 @@ help each step of the way.
 
 
 This image was carefully selected as it shows a lady sitting in 
-a tradition yoga poses with her eyes closed and hands open to her sides
+a traditional yoga pose with her eyes closed and hands open to her sides
 in a forest with a halo of light shining upon her. The image gives the feeling 
 that the lady is embracing nature, becoming one with all 
 that's around her. For me this image represents where Yoga
@@ -76,9 +75,9 @@ can take you through practice.
 ![Hero image ](docs/screenshots/Screenshot-hero-image.png)
 
 - Footer
-  - The footer design is consistent through you all pages on this site
-  - The footer is made up of a grey background which includes logo links to each of the social media platforms. These are equally spaced across the footer. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
-  - When clicked these links will take you to the login page of its corresponding social media page.
+  - The footer design is consistent throughout all pages on this site
+  - The footer is made up of a grey background which includes logo links to each of the social media platforms. These are equally spaced across the footer. This provides the user with a visual call to action to prompt them into visiting the organisation's social media profiles.
+  - When clicked, these links will take you to the login page of the corresponding social media page.
   
   
 ![Footer Image](docs/screenshots/Screenshot-Footer.png)
@@ -92,7 +91,7 @@ about this.
 
 ![Welcome](docs/screenshots/Screenshot-welcome.png)
 
-### This introductory video dives deeper into the meaning of yoga. Giving the user a better understanding on the true nature of yoga
+### This introductory video dives deeper into the meaning of yoga. It gives the user a better understanding on the true nature of yoga
 
 ![What is yoga video](docs/screenshots/Screenshot-what-is-yoga-video.png)
 
@@ -116,7 +115,7 @@ about this.
 
 ![Studio Banner](docs/screenshots/Screenshot-studio-banner.png)
 
- - The Studio page prepares you with a list of what you will need displayed to the left of the page with an image to its right showing basic Yoga poses.
+ - The Studio page prepares you with a list of what you will need displayed on the left of the page with an image to its right showing basic Yoga poses.
 
 ![Getting started](docs/screenshots/Screenshot-getting-started.png)
 
@@ -125,24 +124,24 @@ about this.
 ![Introductory video](docs/screenshots/Screenshot-introductory-video.png)
 
  - It introduces you to the three Yoga instructors. 
- - The user starts with a 10min yoga video. Keeping it short and simple
-   for your beginners
+ - The user starts with a 10min yoga video, keeping it short and simple
+   for beginners
 - The user will move on to a 40min video for those who may be willing to try something a bit more challenging.
-- And lastly a stretch is provided as it is important after ever exercising 
-- In these videos you are though how to breath and provided with expert tips and knowledge 
-- When viewed on mobile/small screens the images and videos become smaller to fit the screen size and is displayed in columns, one after the other 
-- And when viewed on lager screens the instructor videos are displayed as flex and position in a row as shown below:
+- Lastly, a stretch is provided as it is important after exercising 
+- In these videos you are taught how to breath and provided with expert tips and knowledge 
+- When viewed on mobile/small screens the images and videos become smaller to fit the screen size and are displayed in columns, one after the other 
+- And when viewed on larger screens, the instructor videos are displayed as flex and positioned in a row as shown below:
 
 ![Screenshot-instructors.png](docs/screenshots/Screenshot-instructors.png)
 
 ## The About Us page
 
-- This page layout shows the who-we-are text aligned to the left and an image to its immediate right. This layout is reversed when displaying the Our-Goal section below. A light grey background color of helps differentiates between the two summaries allowing a better reading experience.
+- This page layout shows the who-we-are text aligned to the left and an image to its immediate right. This layout is reversed when displaying the Our-Goal section below. A light grey background color helps differentiate between the two summaries allowing a better reading experience.
 
 ![Who we are](docs/screenshots/Screenshot-who-we-are.png)
 
 - Who-we-are summary gives the User an insight on the life of Emily Stuart the Founder of YogaWithMe and how she first fell in love with Yoga and started this company. (The name Emily Stuart was created only to add a name to this story)
-- Our-Goal summary is positioned directly below the Who-we-are summary. This informs the reader of the Founder's goal and what you can expect form the practice.
+- Our-Goal summary is positioned directly below the Who-we-are summary. This informs the reader of the Founder's goal and what you can expect from the practice.
 
 ![Our goal](docs/screenshots/Screenshot-our-goal.png)
 
@@ -153,7 +152,7 @@ The contact form provides users with the ability to contact the YogaWithMe team 
 ![Contact form](docs/screenshots/Screenshot-contact-form.png)
 
  - Hidden Pages
-    - Once the contact form is correctly fill-out, the feedback-page will appear thanking the customer for their feedback/message.
+    - Once the contact form is correctly filled out, the feedback-page will appear thanking the customer for their feedback/message.
     - This page takes the same page structure as the contact us page, but with the feedback page content.
 
 ![Feedback Page](docs/screenshots/Screenshot-feedback.png)
@@ -234,7 +233,7 @@ No videos were used on this page. This report was good.
    - In the GitHub repository, navigate to the settings tab
    - Select the pages link from the setting menu on the left hand side
    - Under the GitHub Pages from the source section drop-down menu, select the master branch
-   - One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
    - The live link can be found here - [YogaWithMe Live Site](https://ayishasandiford.github.io/yogawithme-pp1/)
 
 ## Credits
@@ -244,11 +243,11 @@ No videos were used on this page. This report was good.
   This project could not have happened without the support of the following people listed in no particular order:
 
 - Omar Fitzpatrick - My big brother and mentor who introduced me to HTML and CSS back in 2011 giving me my first project to replicate the CNN website. Big thanks for always being there to answer a quick question, help with planning and support!!!
-- David Bowers - My Mentor. I couldn't have been paired with a better Mentor! I am forever thankful and your guidance and support.
+- David Bowers - My Mentor. I couldn't have been paired with a better Mentor! I am forever thankful for your guidance and support.
 - Kyle Skeete - Provided me with design tips to help improve the look of my contact us page. Big Thanks!!
-- Code Institute - For giving me this opportunity and providing me with unlimited resources, step by step videos and tons for support!
+- Code Institute - For giving me this opportunity and providing me with unlimited resources, step by step videos and tons of support!
 - Ilyas Olgun - Has been very helpful providing me with tips and some bug fixes
-- The Code Institute Slack community where I was able to find answers to problems in Css and HTML
+- The Code Institute Slack community where I was able to find answers to problems in CSS and HTML
 - And my amazing Fiancé Steven Rawlins who has been my rock and my biggest cheer leader from day one. Thank you for your continuous support every step of the way!
 
 ## General reference:
@@ -271,7 +270,7 @@ I relied upon [W3schools](https://www.w3schools.com/), and stack overflow for ge
 - Yoga instructor Charlie - content creator [Charlie Follows](https://www.youtube.com/watch?v=9fp9OQZvXRM&t=514s)
 - Yoga instructor Sarah Beth - content create [SarahBethYoga](https://www.youtube.com/watch?v=-ZPyCILWvT0&t=2s)
 - Images from [Pexels](https://www.pexels.com): About Us page, and Benefits on yoga image
-- Images from [FreePik](https://www.freepik.com/): Home Page - Hero image and three align images
+- Images from [FreePik](https://www.freepik.com/): Home Page - Hero image and three aligned images
 - Images from [Pintrest](https://www.pinterest.com/): Studio Page - Beginner Pose Image
 - Home Page List icons - Author Arshad - [IconsForFree](https://icons-for-free.com/)
 - The embedded video HTML code was generated by [YouTube](https://www.youtube.com/)
