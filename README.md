@@ -234,7 +234,7 @@ No videos were used on this page. This report was good.
    - Select the pages link from the setting menu on the left hand side
    - Under the GitHub Pages from the source section drop-down menu, select the master branch
    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-   - The live link can be found here - [YogaWithMe Live Site](https://ayishasandiford.github.io/yogawithme-pp1/)
+   - The live link can be found here - [YogaWithMe Live Site](https://external.ink?to=ayishasandiford.github.io/yogawithme-pp1/)
 
 ## Credits
 
